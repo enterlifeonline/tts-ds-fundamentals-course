@@ -1,0 +1,120 @@
+#:kivy 2.0.0
+#: import SlideTransition kivy.uix.screenmanager.SlideTransition
+root:
+    ScreenChanger:
+        id: screenChanger
+        name: 'screenChanger'
+        LandingScreenWrapper:
+            # name: 'lsw'
+            manager: 'screenChanger'
+            LandingScreen:
+                name: 'landing'
+                manager: 'screenChanger'
+                InLineScreen:
+                    name: 'inLine'
+                    manager: 'screenChanger'
+                MakeLineScreen:
+                    name: 'makeLine'
+                    manager: 'screenChanger'
+        ManageLineScreen:
+            # id: MLS
+            # name: 'manageLine'
+            manager: 'screenChanger'
+            # Button:
+            #     text: 'Go back'
+            #     on_release:
+            #         root.current = 'inLine'
+        ManageWaitScreen:
+            # id: MWS
+            # name: 'manageWait'
+            manager: 'screenChanger'
+            # Button:
+            #     text: 'Go back'
+            #     on_release:
+            #         root.current = 'inLine'
+
+<ScreenChanger>:
+    id: screenChanger
+    LandingScreenWrapper:
+        name: 'lsw'
+        manager: 'screenChanger'
+        LandingScreen:
+            name: 'landing'
+            manager: 'screenChanger'
+            direction: 'left'
+            background_color: 1, 1, 1, 1
+            InLineScreen:
+                name: 'inLine'
+                manager: 'screenChanger'
+                padding: 50, 100, 50, 100
+                spacing: 10, 10
+                row_force_default: 'true'
+                row_default_height: 40
+                rows: 3
+                Label:
+                    text: 'Enter the name of the line you would like to join: '
+                TextInput:
+                    id: joinEntry
+                    hint_text: 'Enter text here'
+                Button:
+                    text: 'Join'
+                    on_release: 
+                        app.patchJoin(joinEntry.text)
+                        root.transition = SlideTransition(direction='up')
+                        root.current = 'manageWait'
+            
+            MakeLineScreen:   
+                name: 'makeLine'
+                manager: 'screenChanger'
+                padding: 50, 100, 50, 100
+                spacing: 10, 10
+                row_force_default: 'true'
+                row_default_height: 40
+                rows: 3
+                Label:
+                    text: 'Enter the name of the line you would like to make: '
+                TextInput:
+                    id: createEntry
+                    hint_text: 'Enter text here'
+                Button:
+                    text: 'Create'
+                    on_release: 
+                        app.patchCreate(createEntry.text)
+                        root.transition = SlideTransition(direction='up')
+                        root.current = 'manageLine'
+    ManageLineScreen:
+        id: MLS
+        name: 'manageLine'
+        manager: 'screenChanger'
+        GridLayout:
+            padding: 50, 100, 50, 100
+            spacing: 10, 10
+            row_force_default: 'true'
+            row_default_height: 40
+            rows: 3
+            Label:
+                text: 'This is the screen where you manage your line'
+            Button:
+                text: 'Go back'
+                on_release:
+                    root.transition = SlideTransition(direction='down')
+                    root.current = 'lsw'
+    ManageWaitScreen:
+        id: MWS
+        name: 'manageWait'
+        manager: 'screenChanger'
+        GridLayout:
+            padding: 50, 100, 50, 100
+            spacing: 10, 10
+            row_force_default: 'true'
+            row_default_height: 40
+            rows: 3
+            Label:
+                text: 'This is the screen where you see yourself in line'
+            Button:    
+                text: 'Go back'
+                on_release:
+                    root.transition = SlideTransition(direction='down')
+                    root.current = 'lsw'
+                
+        

@@ -1,0 +1,27 @@
+Fine-scale sociodemographic of Chicago, USA, 1920.
+University of Florida Infectious Disease Dynamics Groups
+
+Prepared and edited by Steve E. Schacterle, Madhura S. Rane, and Kyra H. Grantz
+Last modified 10 November 2016
+
+Summary: Socio-demographic data of 496 census tracts within the City of Chicago. Data was collected from the 1920 national census. 
+
+Reference: Minnesota Population Center. 2011. National Geographic Information System (University of Minnesota, Minneapolis), Version 2.0
+
+GISJOIN - unique census tract identifier
+counts - total pneumonia and mortality deaths, September 29 to November 16, 1918
+week - beginning September 29, 1918, week of epidemic
+pop - total population
+Gross_acres - census tract size, in acres
+illit - number of illiterate individuals 
+illit.r - number of illiterate individuals divided by total population
+den.r - total population divided by census tract area, in acres
+unemployed - percent of total population unemployed
+ho.pct - percent of total population that owns home
+agecat1 - individuals 0 to 1 year of age
+agecat2 - individuals 1 to 4 year of age 
+agecat3 - individuals 5 to 10 year of age
+agecat4 - individuals 11 to 15 year of age
+agecat5 - individuals 16 to 20 year of age
+agecat6 - individuals 21 to 44 year of age
+agecat7 - individuals 45 years of age or older

@@ -1,0 +1,77 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+```{r}
+library(ggplot2)
+library(readr)
+dat <- read_csv("dataSets/EconomistData.csv")
+```
+```{r}
+dat$Region <- factor(dat$Region,
+                     levels = c("EU W. Europe",
+                                "Americas",
+                                "Asia Pacific",
+                                "East EU Cemt Asia",
+                                "MENA",
+                                "SSA"),
+                     labels = c("OECD",
+                                "Americas",
+                                "Asia &\nOceania",
+                                "Central &\nEastern Europe",
+                                "Middle East &\nnorth Africa",
+                                "Sub-Saharan\nAfrica"))
+```
+Exercise 1
+```{r}
+ggplot(dat, aes(x = CPI, y = HDI)) + geom_point(color = "blue")
+ggplot(dat, aes(x = CPI, y = HDI)) + geom_point(aes(color = Region))
+```
+```{r}
+ggplot(dat, aes(x = CPI, y = HDI)) + geom_point(aes(color = Region), size = 2)
+```
+```{r}
+ggplot(dat, aes(x = CPI, y = HDI)) + geom_point(aes(color = Region, size =  HDI.Rank))
+```
+Exercise 2
+```{r}
+ggplot(dat, aes(x = CPI, y = HDI)) + geom_point()
+```
+```{r}
+ggplot(dat, aes(x = CPI, y = HDI)) + geom_point() + geom_smooth()
+```
+```{r}
+ggplot(dat, aes(x = CPI, y = HDI)) + geom_point() + geom_smooth(method = "lm")
+```
+```{r}
+ggplot(dat, aes(x = CPI, y = HDI)) + geom_point() + geom_line(stat = "smooth", method = "loess")
+```
+```{r}
+ggplot(dat, aes(x = CPI, y = HDI)) + geom_point() + geom_smooth(span = .4)
+```
+Exercise 3
+```{r}
+ggplot(dat, aes(x = CPI, y = HDI, color = "Region")) + geom_point()
+```
+```{r}
+ggplot(dat, aes(x = CPI, y = HDI, color = "Region")) + geom_point() +
+scale_x_continuous(name = "Corruption Perception Index (CPI)") +
+scale_y_continuous(name = "Human Development Index (HDI)") +
+scale_color_discrete(name = "Region of the world")
+```
+```{r}
+ggplot(dat, aes(x = CPI, y = HDI, color = "Region")) +
+geom_point() +
+scale_x_continuous(name = "Corruption Perception Index") +
+scale_y_continuous(name = "Human Development Index") +
+  scale_color_manual(name = "Region of the world",
+                     values = c("#24576D",
+                                "#099DD7",
+                                "#28AADC",
+                                "#248E84",
+                                "#F2583F",
+                                "#96503F"))
+```

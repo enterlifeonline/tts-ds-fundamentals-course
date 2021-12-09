@@ -1,0 +1,224 @@
+total 16
+drwxr-xr-x  13 gsjackson  staff   416B May 19 20:22 .
+drwxr-xr-x@  7 gsjackson  staff   224B May 12 16:34 ..
+-rw-r--r--   1 gsjackson  staff     7B Nov 20 20:50 .Rhistory
+drwxr-xr-x  12 gsjackson  staff   384B May 19 20:22 .git
+drwxr-xr-x   4 gsjackson  staff   128B Jul 29  2019 Project_1_Simplifying the Metal Level Calculator
+drwxr-xr-x   5 gsjackson  staff   160B Jul 29  2019 Project_2_Legalese Detection
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 Project_3_MovieRecommender_GraphLab
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 Project_4_RedHat_Business_Value
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 Project_5_SF Crime Activity Visualizer with Processing
+drwxr-xr-x   4 gsjackson  staff   128B Jul 29  2019 Project_6_Recruitment_Challenge_1
+drwxr-xr-x   5 gsjackson  staff   160B Apr 29 18:44 Project_7_Recruitment_Challenge_2
+-rw-r--r--@  1 gsjackson  staff   3.6K Jul 29  2019 README.md
+-rw-r--r--   1 gsjackson  staff     0B May 19 20:22 listing.txt
+
+./.git:
+total 40
+drwxr-xr-x  12 gsjackson  staff   384B May 19 20:22 .
+drwxr-xr-x  13 gsjackson  staff   416B May 19 20:22 ..
+-rw-r--r--   1 gsjackson  staff    23B Jul 29  2019 HEAD
+-rw-r--r--   1 gsjackson  staff   330B Jul 29  2019 config
+-rw-r--r--   1 gsjackson  staff    73B Jul 29  2019 description
+drwxr-xr-x  13 gsjackson  staff   416B Jul 29  2019 hooks
+-rw-r--r--   1 gsjackson  staff   3.6K May 19 20:21 index
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 info
+drwxr-xr-x   4 gsjackson  staff   128B Jul 29  2019 logs
+drwxr-xr-x   4 gsjackson  staff   128B Jul 29  2019 objects
+-rw-r--r--   1 gsjackson  staff   114B Jul 29  2019 packed-refs
+drwxr-xr-x   5 gsjackson  staff   160B Jul 29  2019 refs
+
+./.git/hooks:
+total 96
+drwxr-xr-x  13 gsjackson  staff   416B Jul 29  2019 .
+drwxr-xr-x  12 gsjackson  staff   384B May 19 20:22 ..
+-rwxr-xr-x   1 gsjackson  staff   478B Jul 29  2019 applypatch-msg.sample
+-rwxr-xr-x   1 gsjackson  staff   896B Jul 29  2019 commit-msg.sample
+-rwxr-xr-x   1 gsjackson  staff   3.2K Jul 29  2019 fsmonitor-watchman.sample
+-rwxr-xr-x   1 gsjackson  staff   189B Jul 29  2019 post-update.sample
+-rwxr-xr-x   1 gsjackson  staff   424B Jul 29  2019 pre-applypatch.sample
+-rwxr-xr-x   1 gsjackson  staff   1.6K Jul 29  2019 pre-commit.sample
+-rwxr-xr-x   1 gsjackson  staff   1.3K Jul 29  2019 pre-push.sample
+-rwxr-xr-x   1 gsjackson  staff   4.8K Jul 29  2019 pre-rebase.sample
+-rwxr-xr-x   1 gsjackson  staff   544B Jul 29  2019 pre-receive.sample
+-rwxr-xr-x   1 gsjackson  staff   1.5K Jul 29  2019 prepare-commit-msg.sample
+-rwxr-xr-x   1 gsjackson  staff   3.5K Jul 29  2019 update.sample
+
+./.git/info:
+total 8
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  12 gsjackson  staff   384B May 19 20:22 ..
+-rw-r--r--   1 gsjackson  staff   240B Jul 29  2019 exclude
+
+./.git/logs:
+total 8
+drwxr-xr-x   4 gsjackson  staff   128B Jul 29  2019 .
+drwxr-xr-x  12 gsjackson  staff   384B May 19 20:22 ..
+-rw-r--r--   1 gsjackson  staff   217B Jul 29  2019 HEAD
+drwxr-xr-x   4 gsjackson  staff   128B Jul 29  2019 refs
+
+./.git/logs/refs:
+total 0
+drwxr-xr-x  4 gsjackson  staff   128B Jul 29  2019 .
+drwxr-xr-x  4 gsjackson  staff   128B Jul 29  2019 ..
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 heads
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 remotes
+
+./.git/logs/refs/heads:
+total 8
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  4 gsjackson  staff   128B Jul 29  2019 ..
+-rw-r--r--  1 gsjackson  staff   217B Jul 29  2019 master
+
+./.git/logs/refs/remotes:
+total 0
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  4 gsjackson  staff   128B Jul 29  2019 ..
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 origin
+
+./.git/logs/refs/remotes/origin:
+total 8
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 ..
+-rw-r--r--  1 gsjackson  staff   217B Jul 29  2019 HEAD
+
+./.git/objects:
+total 0
+drwxr-xr-x   4 gsjackson  staff   128B Jul 29  2019 .
+drwxr-xr-x  12 gsjackson  staff   384B May 19 20:22 ..
+drwxr-xr-x   2 gsjackson  staff    64B Jul 29  2019 info
+drwxr-xr-x   4 gsjackson  staff   128B Jul 29  2019 pack
+
+./.git/objects/info:
+total 0
+drwxr-xr-x  2 gsjackson  staff    64B Jul 29  2019 .
+drwxr-xr-x  4 gsjackson  staff   128B Jul 29  2019 ..
+
+./.git/objects/pack:
+total 12832
+drwxr-xr-x  4 gsjackson  staff   128B Jul 29  2019 .
+drwxr-xr-x  4 gsjackson  staff   128B Jul 29  2019 ..
+-r--r--r--  1 gsjackson  staff   4.2K Jul 29  2019 pack-ea8397dff3fe0a29ced46ac40e9c5ee3c3ee6ae2.idx
+-r--r--r--  1 gsjackson  staff   6.3M Jul 29  2019 pack-ea8397dff3fe0a29ced46ac40e9c5ee3c3ee6ae2.pack
+
+./.git/refs:
+total 0
+drwxr-xr-x   5 gsjackson  staff   160B Jul 29  2019 .
+drwxr-xr-x  12 gsjackson  staff   384B May 19 20:22 ..
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 heads
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 remotes
+drwxr-xr-x   2 gsjackson  staff    64B Jul 29  2019 tags
+
+./.git/refs/heads:
+total 8
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  5 gsjackson  staff   160B Jul 29  2019 ..
+-rw-r--r--  1 gsjackson  staff    41B Jul 29  2019 master
+
+./.git/refs/remotes:
+total 0
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  5 gsjackson  staff   160B Jul 29  2019 ..
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 origin
+
+./.git/refs/remotes/origin:
+total 8
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 ..
+-rw-r--r--  1 gsjackson  staff    32B Jul 29  2019 HEAD
+
+./.git/refs/tags:
+total 0
+drwxr-xr-x  2 gsjackson  staff    64B Jul 29  2019 .
+drwxr-xr-x  5 gsjackson  staff   160B Jul 29  2019 ..
+
+./Project_1_Simplifying the Metal Level Calculator:
+total 3248
+drwxr-xr-x   4 gsjackson  staff   128B Jul 29  2019 .
+drwxr-xr-x  13 gsjackson  staff   416B May 19 20:22 ..
+drwxr-xr-x   4 gsjackson  staff   128B Jul 29  2019 .ipynb_checkpoints
+-rw-r--r--   1 gsjackson  staff   1.6M Jul 29  2019 Simplifying_The_Health_Insurance_Metal_Level.ipynb
+
+./Project_1_Simplifying the Metal Level Calculator/.ipynb_checkpoints:
+total 4928
+drwxr-xr-x  4 gsjackson  staff   128B Jul 29  2019 .
+drwxr-xr-x  4 gsjackson  staff   128B Jul 29  2019 ..
+-rw-r--r--  1 gsjackson  staff   688K Jul 29  2019 Kojak_2016_SBusiness-checkpoint.ipynb
+-rw-r--r--  1 gsjackson  staff   1.7M Jul 29  2019 Simplifying_The_Health_Insurance_Metal_Level-checkpoint.ipynb
+
+./Project_2_Legalese Detection:
+total 120
+drwxr-xr-x   5 gsjackson  staff   160B Jul 29  2019 .
+drwxr-xr-x  13 gsjackson  staff   416B May 19 20:22 ..
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 .ipynb_checkpoints
+-rw-r--r--   1 gsjackson  staff    59K Jul 29  2019 Project4_LegaleseDetection.ipynb
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 images
+
+./Project_2_Legalese Detection/.ipynb_checkpoints:
+total 120
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  5 gsjackson  staff   160B Jul 29  2019 ..
+-rw-r--r--  1 gsjackson  staff    59K Jul 29  2019 Project4_LegaleseDetection-checkpoint.ipynb
+
+./Project_2_Legalese Detection/images:
+total 1216
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  5 gsjackson  staff   160B Jul 29  2019 ..
+-rw-r--r--  1 gsjackson  staff   608K Jul 29  2019 CRISP-DM_Process_Diagram.png
+
+./Project_3_MovieRecommender_GraphLab:
+total 15480
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  13 gsjackson  staff   416B May 19 20:22 ..
+-rw-r--r--   1 gsjackson  staff   7.6M Jul 29  2019 Project_3_Rendered.html
+
+./Project_4_RedHat_Business_Value:
+total 3256
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  13 gsjackson  staff   416B May 19 20:22 ..
+-rw-r--r--   1 gsjackson  staff   1.6M Jul 29  2019 RedHat_Business_Value.ipynb
+
+./Project_5_SF Crime Activity Visualizer with Processing:
+total 0
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  13 gsjackson  staff   416B May 19 20:22 ..
+drwxr-xr-x  10 gsjackson  staff   320B Jul 29  2019 CrimeViewer
+
+./Project_5_SF Crime Activity Visualizer with Processing/CrimeViewer:
+total 72
+drwxr-xr-x  10 gsjackson  staff   320B Jul 29  2019 .
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 ..
+-rw-r--r--   1 gsjackson  staff   1.1K Jul 29  2019 BarChart.pde
+-rw-r--r--   1 gsjackson  staff   2.1K Jul 29  2019 Button.pde
+-rw-r--r--   1 gsjackson  staff   2.0K Jul 29  2019 Chart.pde
+-rw-r--r--   1 gsjackson  staff   4.4K Jul 29  2019 CrimeMap.pde
+-rw-r--r--   1 gsjackson  staff   3.2K Jul 29  2019 CrimeViewer.pde
+-rw-r--r--   1 gsjackson  staff   2.3K Jul 29  2019 DataLoader.pde
+-rw-r--r--   1 gsjackson  staff   846B Jul 29  2019 PieChart.pde
+-rw-r--r--   1 gsjackson  staff   1.8K Jul 29  2019 UserControls.pde
+
+./Project_6_Recruitment_Challenge_1:
+total 2264
+drwxr-xr-x   4 gsjackson  staff   128B Jul 29  2019 .
+drwxr-xr-x  13 gsjackson  staff   416B May 19 20:22 ..
+drwxr-xr-x   3 gsjackson  staff    96B Jul 29  2019 .ipynb_checkpoints
+-rw-r--r--   1 gsjackson  staff   1.1M Jul 29  2019 Challenge.ipynb
+
+./Project_6_Recruitment_Challenge_1/.ipynb_checkpoints:
+total 2264
+drwxr-xr-x  3 gsjackson  staff    96B Jul 29  2019 .
+drwxr-xr-x  4 gsjackson  staff   128B Jul 29  2019 ..
+-rw-r--r--  1 gsjackson  staff   1.1M Jul 29  2019 Challenge-checkpoint.ipynb
+
+./Project_7_Recruitment_Challenge_2:
+total 328
+drwxr-xr-x   5 gsjackson  staff   160B Apr 29 18:44 .
+drwxr-xr-x  13 gsjackson  staff   416B May 19 20:22 ..
+drwxr-xr-x   2 gsjackson  staff    64B Apr 29 18:44 .ipynb_checkpoints
+-rw-r--r--   1 gsjackson  staff    22K Jul 29  2019 Challenge2_1_OnTheSpot.ipynb
+-rw-r--r--   1 gsjackson  staff   137K Jul 29  2019 Challenge2_2_Addendum.ipynb
+
+./Project_7_Recruitment_Challenge_2/.ipynb_checkpoints:
+total 0
+drwxr-xr-x  2 gsjackson  staff    64B Apr 29 18:44 .
+drwxr-xr-x  5 gsjackson  staff   160B Apr 29 18:44 ..

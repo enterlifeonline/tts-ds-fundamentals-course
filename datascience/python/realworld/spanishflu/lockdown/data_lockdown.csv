@@ -1,0 +1,26 @@
+City,1915 Mortality Rate,1918 Mortality Rate,Lockdown Policy
+"Los Angeles, California",87.4,484.5,Strict Policy
+"Oakland, California",98.6,496.6,Strict Policy
+"San Francisco, California",130.6,647.7,Lenient Policy
+"Denver, Colorado",184.8,727.7,Lenient Policy
+"Bridgeport, Connecticut",206.0,825.4,Lenient Policy
+"Washington, D.C.",189.8,758.8,Lenient Policy
+"Atlanta, Georgia",165.7,478.4,Strict Policy
+"Chicago, Illinois",172.7,516.6,Strict Policy
+"Indianapolis, Indiana",146.7,459.4,Strict Policy
+"Kansas City, Kansas",246.6,750.6,Lenient Policy
+"Boston, Massachusetts",214.6,844.7,Lenient Policy
+"Detroit, Michigan",148.1,413.4,Strict Policy
+"Minneapolis, Minnesota",121.6,387.7,Strict Policy
+"New York, New York",212.1,582.5,Strict Policy
+"Portland, Oregon",69.6,448.2,Strict Policy
+"Philadelphia, Pennsylvania",189.2,932.5,Lenient Policy
+"Pittsburgh, Pennsylvania",260.1,1243.6,Lenient Policy
+"Richmond, Virginia",209.9,661.0,Lenient Policy
+"Seattle, Washington",74.7,425.5,Strict Policy
+"Spokane, Washington",91.9,487.4,Strict Policy
+"Milwaukee, Wisconsin",158.9,474.1,Strict Policy
+"Birmingham, Alabama",158.1,843.6,Lenient Policy
+"Baltimore, Maryland",207.1,836.5,Lenient Policy
+"Nashville, Tennessee",179.9,910.2,Lenient Policy
+"Fall River, Massachusetts",213.5,799.7,Lenient Policy

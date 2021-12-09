@@ -1,0 +1,9 @@
+1918 Pandemic Influenza Mortality, Chicago USA
+
+Prepared and edited by Steve E. Schacterle, Madhura S. Rane, and Kyra H. Grantz
+Last modified 10 November 2016
+
+FID - unique point identifier
+pneumonia - 1 if pneumonia, 0 if influenza/unknown
+x(m), y(m) - point location of each death event, based on arbitrary projection of city of Chicago (i.e., does not map to longitude and latitude)
+week - beginning September 28, 1918, week that death was recorded
