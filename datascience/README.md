@@ -18,7 +18,7 @@
 
 **Tech Talent South** [Data Science: **R** Setup and Installation Checklist](https://qlx.services/institute/files/datascience/TTSDataScienceChecklistR.pdf)
 
-[R for Data Science](https://r4ds.had.co.nz/) written by Garrett Grolemund, Hadley Wickham. (O’Reilly) Copyright 2017 O’Reilly Media, Inc., ISBN: 978-1-491-91039-9. **[Download PDF](https://qlx.services/institute/files/R_For_Data_Science.pdf)**
+[R for Data Science](https://r4ds.had.co.nz/) written by Garrett Grolemund, Hadley Wickham. (O’Reilly) Copyright 2017 O’Reilly Media, Inc., ISBN: 978-1-491-91039-9. **[Download PDF](https://qlx.services/institute/files/datascience/R_For_Data_Science.pdf)**
 
 ---
 
